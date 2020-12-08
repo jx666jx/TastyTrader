@@ -1,0 +1,2 @@
+# csvsql was used to help build the tables initialy from the tastyworks CSV export
+csvsql --dialect mysql --snifflimit 10000 ../tastyworks_transactions_x1234_2020-10-09_2020-10-09.csv

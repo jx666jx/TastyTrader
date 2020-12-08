@@ -1,0 +1,111 @@
+strategy,notes,TTapproach,TTclose,TTmanage,TTurl
+Big Lizard,profit 50%,"A Jade Lizard is traded when a trader has a neutral to bullish assumption on a stock, but not extremely bullish since the position incorporates a short call spread.
+
+The trade is suitable for stocks that have sold off and have high implied volatility rank (IVR). This allows for more premium to be collected, while having no upside risk if the underlying trades through the short call spread.
+
+For traders who are very bullish on a stock that has sold off and has a high IVR, strategies such as short puts or covered calls may be more suitable.
+
+These strategies are ideal when a volatility skew is apparent, and IV Rank & IV are high. 
+The premium collected should be more than the width of the strikes of the call spread.
+As a general rule, aim to collect 70% of the credit for the trade from the sale of the put, and 30% from the sale of the call spread. 
+A big lizard involves selling a straddle then purchasing an out-of-the-money call.","When do we close Jade Lizards?
+The trade is closed for a winner by purchasing the options back for a net debit that is less than the credit collected at order entry. The first profit target is 50% of max profit, or half of the credit that was initially received at order entry.","When do we manage Jade Lizards?
+If the stock trades through the short call spread, the short put can be rolled up to collect more credit. However, since there is no upside risk when trading Jade Lizards, this adjustment isn’t entirely necessary.
+
+If the stock sells off and tests the short put, the short call spread can be rolled down to collect more credit without increasing the upside risk.
+
+In the worst case scenario, a trader can close the entire position for a loss if the loss on the short put becomes too large.",https://www.tastytrade.com/tt/learn/jade-lizard
+Broken Wing Butterfly,profit 50%,"Our approach to broken wing butterfly spreads is simple - we always route this for a credit. When we route this trade for a credit, we eliminate the risk of losing money if the entire spread expires out of the money. Routing this trade for a credit also drastically improves our probability of profit, for this very reason.","When do we close Broken Wing Butterflies?
+When routing this strategy, it is usually for a very small credit. Therefore, we won’t look to close the trade if we see a small profit from that. We usually aim for 50% of our max profit on the trade. That would be when our closest long option to the stock price goes ITM near expiration. To get a rough calculation of this, just take the distance between the closest long option and the short options and divide by two.","When do we manage Broken Wing Butterflies?
+If our spread goes against us, we will look to close our long spread aspect of the trade for max profit, and potentially roll the remaining short spread out in time if we can do so for a credit.",https://www.tastytrade.com/tt/learn/broken-wing-butterfly
+Butterfly,profit 25-50%,"At tastytrade, we tend to buy Call or Put Butterfly spreads to take advantage of the non-movement of an underlying stock. This is a low probability trade, but we use this strategy when implied volatility is high, as the butterfly spread then trades cheaper. The spread trades cheaper in this situation since the price of the In-The-Money option consists primarily of intrinsic value. Therefore selling the ATM options covers a higher percentage of the cost of purchasing both of the long options.","When do we close Butterflies?
+Since achieving maximum profit on a Butterfly is highly unlikely, the profit target on this position is generally lower. A reasonable profit target on a Long Butterfly is 25-50% of the maximum profit.","When do we manage Butterflies?
+Long Butterfly spreads are low probability, low risk trades. For this reason, losses generally aren’t managed.",https://www.tastytrade.com/tt/learn/butterfly-spread
+Calendar,,"There are two things to remember when it comes to calendar spreads:
+
+1. If the stock price moves too far from our strikes, the trade will become a loser.
+2. An implied volatility increase will help our trade make money.
+
+Keeping this information in mind is most helpful when setting up the trade. We pick strikes that are near the stock price, if not right on the stock price. We may skew it slightly bullish or slightly bearish if we have a small directional assumption, but it will be very close to the stock price regardless - that gives us the most exposure to profit or loss with changes in implied volatility. You will only see us routing this strategy in the lowest of IV environments.","When do we close Calendar Spreads?
+Since a calendar spread can be hurt by too much stock movement, we tend to manage our winners at around 25% of the debit we paid to enter the trade. Waiting too long for additional profits could mean stock price movement, which is bad for the position. We never route calendar spreads in volatility instruments. Each expiration acts as its own underlying, so our max loss is not defined.","When do we manage Calendar Spreads?
+Since this is a debit spread that is defined risk, we don’t usually manage these spreads. We are comfortable with the debit paid as max loss, and there’s not much we can do with these spreads regardless since they share the same strike.",https://www.tastytrade.com/tt/learn/calendar-spread
+Covered Call,,"We almost always prefer covered calls to naked stock because it allows us to profit when the stock doesn’t move at all, and it also reduces our max loss if the stock goes down. It’s important to consider the credit received from the call when deploying this strategy. If we can only collect $0.10 by selling the call, we may consider another strategy or hold off on selling the call until we can find more premium.
+
+We look to deploy this bullish strategy in low priced stocks with high volatility. Based on our studies, entering this trade with roughly 45 days to expiration is ideal. We typically sell the call that has the most liquidity near the 30 delta level, as that gives us a high probability trade while also giving us profitability to the upside if the stock moves in our favor.","When do we close Covered Calls?
+We close covered calls when the stock price has gone well past our short call, as that usually yields close to max profit. We may also consider closing a covered call if the stock price drops significantly and our assumption changes.","When do we manage Covered Calls?
+We roll a covered call when our assumption remains the same (that the price of the stock will continue to rise). We look to roll the short call when there is little to no extrinsic value left. For instance, if the stock price remains roughly the same as when we executed the trade, we can roll the short call by buying back our short option, and selling another call on the same strike in a further out expiration. We will also roll our call down if the stock price drops. This allows us to collect more premium, and reduce our max loss & breakeven point. We are always cognizant of our current breakeven point, and we do not roll our call down further than that. Doing so can lock in a loss if the stock price actually comes back up and leaves our call ITM.",https://www.tastytrade.com/tt/learn/covered-call
+Diagonal,"opening debit < 75% width
+profit 25-50%","The setup of a diagonal spread is very important. If we have a bad setup, we can actually set ourselves up to lose money if the trade moves in our direction too fast. To ensure we have a good setup, we check the extrinsic value of our longer dated ITM option. Once we figure that value, we ensure that the near term option we sell is equal to or greater than that amount. The deeper ITM our long option is, the easier this setup is to obtain. We also ensure that the total debit paid is not more than 75% of the width of the strikes.
+
+We never route diagonal spreads in volatility instruments. Each expiration acts as its own underlying, so our max loss is not defined.","When do we close Diagonal Spreads?
+We generally look for 25-50% of max profit when closing diagonal spreads. Profit occurs when the long option moves further ITM and gains value, and/or if implied volatility increases.","When do we manage Diagonal Spreads?
+We manage diagonal spreads when the stock price moves against our spread. In this case, we look to roll down the short option closer to the breakeven price, so that we can collect more premium and reduce our overall risk.",https://www.tastytrade.com/tt/learn/diagonal-spread
+Iron Condor,profit 50%,"We approach iron condors with similar entry tactics. We shoot for collecting 1/3rd the width of the strikes in premium upon trade entry. For example, if we have an iron condor with three point wide spreads, we will look to collect $1.00 for the trade. This gives us a probability of success around 67%, which is acceptable to us.","When do we close Iron Condors?
+Much like other standard premium selling strategies, we close iron condors when we reach 50% of our max profit. This can increase our win rate over time, as we are taking risk off the table and locking in profits.","When do we manage Iron Condors?
+We manage iron condors by adjusting the untested side, or profitable side of the spread. We look to roll the untested spread closer to the stock price to collect more premium. We can go as far as rolling our untested spread to the same short strike as our tested spread, which creates an iron fly. ",https://www.tastytrade.com/tt/learn/iron-condor
+Jade Lizard,"Open with at least 1.00
+profit target 50%","A Jade Lizard is traded when a trader has a neutral to bullish assumption on a stock, but not extremely bullish since the position incorporates a short call spread.
+
+The trade is suitable for stocks that have sold off and have high implied volatility rank (IVR). This allows for more premium to be collected, while having no upside risk if the underlying trades through the short call spread.
+
+For traders who are very bullish on a stock that has sold off and has a high IVR, strategies such as short puts or covered calls may be more suitable.
+
+The rules for a jade lizard: you want at least 30 cents on a call spread and 70 cents on the short put.
+
+These strategies are ideal when a volatility skew is apparent, and IV Rank & IV are high
+The premium collected should be more than the width of the strikes of the call spread.
+As a general rule, aim to collect 70% of the credit for the trade from the sale of the put, and 30% from the sale of the call spread. 
+A jade lizard involves selling a strangle and then also purchasing an out-of-the-money call.","When do we close Jade Lizards?
+The trade is closed for a winner by purchasing the options back for a net debit that is less than the credit collected at order entry. The first profit target is 50% of max profit, or half of the credit that was initially received at order entry.","When do we manage Jade Lizards?
+If the stock trades through the short call spread, the short put can be rolled up to collect more credit. However, since there is no upside risk when trading Jade Lizards, this adjustment isn’t entirely necessary.
+
+If the stock sells off and tests the short put, the short call spread can be rolled down to collect more credit without increasing the upside risk.
+
+In the worst case scenario, a trader can close the entire position for a loss if the loss on the short put becomes too large.",https://www.tastytrade.com/tt/learn/jade-lizard
+Naked Options,,"Short “naked” options are calls or puts that are sold that have nothing to limit their risk (shares of stock, long options).
+
+Since “naked” options have no options that are purchased against them, they benefit the most from the passage of time (theta decay) and any decreases in implied volatility (IV). As a result, the ideal environment for selling naked options in terms of the premium collected is when IV is high.","When do we close Naked Options?
+Profitable Short Naked Calls and Short Naked Puts will be closed at a more favorable price than the entry price (first goal: 50% of maximum profit)","When do we manage Naked Options?
+When trading short naked options, selling an option of the opposing type (i.e. selling a call against a short put that is being “tested”) can be one defense mechanism. This reduces the directional risk of the position and collects more premium, which extends the break-even point.
+
+If the trader’s assumption on the underlying has not changed as expiration approaches, the position can be rolled to the next expiration cycle to extend the time in the trade and collect more premium.",https://www.tastytrade.com/tt/learn/naked-options
+Poor Man Covered Call,,"A Poor Man’s Covered Call is a fantastic alternative to trading a covered call. In smaller accounts, this position can be used to replicate a covered call position with much less capital and much less risk than an actual covered call.
+
+The setup of a poor man’s covered call is very important. If we have a bad setup, we can actually set ourselves up to lose money if the trade moves in our direction too fast. To ensure we have a good setup, we check the extrinsic value of our longer dated ITM option. Once we figure that value, we ensure that the near term option we sell is equal to or greater than that amount. The deeper ITM our long option is, the easier this setup is to obtain. We also ensure that the total debit paid is not more than 75% of the width of the strikes.
+
+We never route poor man’s covered calls in volatility instruments. Each expiration acts as its own underlying, so our max loss is not defined.","When do we close PMCCs?
+In the best case scenario, a PMCC will be closed for a winner if the stock prices increases significantly in one expiration cycle. This is because the call options will trade closer to intrinsic value and the profit potential for the trade will diminish.","When do we manage PMCCs?
+For losing trades due to the stock price decreasing, the short call can be rolled to a lower strike to collect more credit.",https://www.tastytrade.com/tt/learn/poor-man-covered-call
+Poor Man Covered Put,,"A Poor Man’s Covered Put (PMCP) is a great alternative to trading a covered put. This is because a covered put position incorporates shorting stock, which is a strategy with undefined risk. Trading a PMCP is a way to define the risk of the trade and use less capital.
+
+The setup of a poor man’s covered put is very important. If we have a bad setup, we can actually set ourselves up to lose money if the trade moves in our direction too fast. To ensure we have a good setup, we check the extrinsic value of our longer dated ITM option. Once we figure that value, we ensure that the near term option we sell is equal to or greater than that amount. The deeper ITM our long option is, the easier this setup is to obtain. We also ensure that the total debit paid is not more than 75% of the width of the strikes.
+
+We never route poor man’s covered put spreads in volatility instruments. Each expiration acts as its own underlying, so our max loss is not defined.","When do we close PMCPs?
+In the best case scenario, a PMCP will be closed for a winner if the stock prices decreases significantly in one expiration cycle. This is because the put options will trade closer to intrinsic value and the profit potential for the trade will diminish.","When do we manage PMCPs?
+For losing trades due to the stock price increasing, the short put can be rolled to a higher strike to collect more credit.",https://www.tastytrade.com/tt/learn/poor-man-covered-put
+Ratio,profit 25-50%,"Our go to ratio-spread is a front-ratio spread. We normally do not route back-ratio spreads, which is where we are purchasing more options than we are selling, because this would be routed for a debit. We always prefer to collect premium and put ourselves in high probability situations. The beauty of this trade is that if we’re directionally wrong, it doesn’t matter if our spread expires OTM as long as we collect a credit - that will then be our profit. We route front-ratio spreads as a means to get into a long or short stock positon with a very beneficial breakeven point. We tend to use these strategies if we have a price target in mind for the underlying. We will usually place our short strike at that target, as that would yield max profit at expiration if the stock ends up there.","When do we close Ratio Spreads?
+When the position reaches 25% to 50% of maximum profit potential.","When do we manage Ratio Spreads?
+When the debit spread portion of the trade can be closed for near max profit, the debit spread portion can be sold while holding the additional short option. If the trader wants to extend duration on the position, the short option can be rolled to the next month.",https://www.tastytrade.com/tt/learn/ratio-spread
+Stock,,,,,
+Straddle,profit 25%,"With straddles, it is important to remember that we are working with truly undefined risk in selling a naked call. We focus on probabilities at trade entry, and make sure to keep our risk / reward relationship at a reasonable level.
+
+Implied volatility (IV) plays a huge role in our strike selection with straddles. The higher the IV, the more credit we will receive from selling the options. A higher credit ultimately means we will have wider breakeven points, since we can use the credit to offset losses we may see to the upside or downside. At the end of the day, a larger relative credit results in a higher probability of success with this strategy.
+
+Our target timeframe for selling straddles is around 45 days to expiration. Our studies show this is a great balance between shorter and longer timeframes.","When do we close straddles?
+The first profit target is generally 25% of the maximum profit. This is done by buying the straddle back for 75% of the credit received at order entry.","When do we defend straddles?
+With premium selling strategies, defensive tactics revolve around collecting more premium to improve our break-even price, and further reduce our cost basis. With short straddles, we don’t have much wiggle room because the short options are already on the same strikes. One option is to roll the whole straddle out in time, using the same strikes. This can be done for a credit, and we will hope for the stock price to return to our short strike by the new expiration.",https://www.tastytrade.com/tt/learn/straddle
+Strangle,profit 50%,"With strangles, it is important to remember that we are working with truly undefined risk in selling a naked call. We focus on probabilities at trade entry, and make sure to keep our risk / reward relationship at a reasonable level.
+
+Implied volatility (IV) plays a huge role in our strike selection with strangles. The higher the IV, the wider our strangle can be while still collecting similar credit to a strangle with closer strikes that is sold in a lower IV environment. If we choose to keep our strikes closer to the stock price, a higher IV environment will yield a much larger credit, as IV is essentially a reflection of the option prices.
+
+Our target timeframe for selling strangles is around 45 days to expiration. Our studies show this is a great balance between shorter and longer timeframes.","When do we close strangles?
+The first profit target is generally 50% of the maximum profit. This is done by buying the strangle back for 50% of the credit received at order entry.","When do we defend strangles?
+With premium selling strategies, defensive tactics revolve around collecting more premium to improve our break-even price, and further reduce our cost basis. With short strangles specifically, we have shown through our studies that rolling the untested side (non-losing side) closer to the stock price when our tested side (losing side) is breached is optimal.",https://www.tastytrade.com/tt/learn/strangle
+Vertical,profit 50%,"Vertical spreads allow us to trade directionally while clearly defining our maximum profit and maximum loss on entry (known as defined risk).
+
+While implied volatility (IV) plays more of a role with naked options, it still does affect vertical spreads. We prefer to sell premium in high IV environments, and buy premium in low IV environments. When IV is high, we look to sell vertical spreads hoping for an IV contraction. When IV rank is low, we look to buy vertical spreads to stay engaged and also use it as a potential hedge against our short volatility risk.
+
+Since the maximum loss is known at order entry, losing positions are generally not defended. We always look to roll for a credit in general, and doing so with vertical spreads is usually difficult.","When do we close vertical spreads?
+Profitable vertical spreads will be closed at a more favorable price than the entry price (goal: 50% of maximum profit","When do we manage vertical spreads?
+Losing long vertical spreads will not be managed but can be closed any time before expiration to avoid assignment/fees.",https://www.tastytrade.com/tt/learn/vertical-spread
+Wheel,,,,,
